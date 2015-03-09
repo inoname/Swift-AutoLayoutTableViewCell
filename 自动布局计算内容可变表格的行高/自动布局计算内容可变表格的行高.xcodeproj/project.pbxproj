@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED5BBC0E1AAD259600F09E10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5BBC0D1AAD259600F09E10 /* AppDelegate.swift */; };
+		ED5BBC101AAD259600F09E10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5BBC0F1AAD259600F09E10 /* ViewController.swift */; };
+		ED5BBC151AAD259600F09E10 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED5BBC141AAD259600F09E10 /* Images.xcassets */; };
+		ED5BBC181AAD259600F09E10 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED5BBC161AAD259600F09E10 /* LaunchScreen.xib */; };
+		ED5BBC241AAD259600F09E10 /* _______________Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5BBC231AAD259600F09E10 /* _______________Tests.swift */; };
+		ED5BBC2E1AAD262300F09E10 /* weibo.json in Resources */ = {isa = PBXBuildFile; fileRef = ED5BBC2D1AAD262300F09E10 /* weibo.json */; };
+		ED5BBC311AAD264700F09E10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED5BBC2F1AAD264700F09E10 /* Main.storyboard */; };
+		ED5BBC331AAD269400F09E10 /* Weibo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5BBC321AAD269400F09E10 /* Weibo.swift */; };
+		ED5BBC351AAD28B800F09E10 /* WeiboCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5BBC341AAD28B800F09E10 /* WeiboCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED5BBC1E1AAD259600F09E10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED5BBC001AAD259600F09E10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED5BBC071AAD259600F09E10;
+			remoteInfo = "自动布局计算内容可变表格的行高";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED5BBC081AAD259600F09E10 /* 自动布局计算内容可变表格的行高.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "自动布局计算内容可变表格的行高.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED5BBC0C1AAD259600F09E10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED5BBC0D1AAD259600F09E10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED5BBC0F1AAD259600F09E10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED5BBC141AAD259600F09E10 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ED5BBC171AAD259600F09E10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		ED5BBC1D1AAD259600F09E10 /* 自动布局计算内容可变表格的行高Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自动布局计算内容可变表格的行高Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED5BBC221AAD259600F09E10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED5BBC231AAD259600F09E10 /* _______________Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_______________Tests.swift"; sourceTree = "<group>"; };
+		ED5BBC2D1AAD262300F09E10 /* weibo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo.json; sourceTree = "<group>"; };
+		ED5BBC301AAD264700F09E10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED5BBC321AAD269400F09E10 /* Weibo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weibo.swift; sourceTree = "<group>"; };
+		ED5BBC341AAD28B800F09E10 /* WeiboCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeiboCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED5BBC051AAD259600F09E10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED5BBC1A1AAD259600F09E10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED5BBBFF1AAD259600F09E10 = {
+			isa = PBXGroup;
+			children = (
+				ED5BBC0A1AAD259600F09E10 /* 自动布局计算内容可变表格的行高 */,
+				ED5BBC201AAD259600F09E10 /* 自动布局计算内容可变表格的行高Tests */,
+				ED5BBC091AAD259600F09E10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED5BBC091AAD259600F09E10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED5BBC081AAD259600F09E10 /* 自动布局计算内容可变表格的行高.app */,
+				ED5BBC1D1AAD259600F09E10 /* 自动布局计算内容可变表格的行高Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED5BBC0A1AAD259600F09E10 /* 自动布局计算内容可变表格的行高 */ = {
+			isa = PBXGroup;
+			children = (
+				ED5BBC0D1AAD259600F09E10 /* AppDelegate.swift */,
+				ED5BBC0F1AAD259600F09E10 /* ViewController.swift */,
+				ED5BBC141AAD259600F09E10 /* Images.xcassets */,
+				ED5BBC2F1AAD264700F09E10 /* Main.storyboard */,
+				ED5BBC161AAD259600F09E10 /* LaunchScreen.xib */,
+				ED5BBC0B1AAD259600F09E10 /* Supporting Files */,
+				ED5BBC321AAD269400F09E10 /* Weibo.swift */,
+				ED5BBC341AAD28B800F09E10 /* WeiboCell.swift */,
+			);
+			path = "自动布局计算内容可变表格的行高";
+			sourceTree = "<group>";
+		};
+		ED5BBC0B1AAD259600F09E10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED5BBC2D1AAD262300F09E10 /* weibo.json */,
+				ED5BBC0C1AAD259600F09E10 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED5BBC201AAD259600F09E10 /* 自动布局计算内容可变表格的行高Tests */ = {
+			isa = PBXGroup;
+			children = (
+				ED5BBC231AAD259600F09E10 /* _______________Tests.swift */,
+				ED5BBC211AAD259600F09E10 /* Supporting Files */,
+			);
+			path = "自动布局计算内容可变表格的行高Tests";
+			sourceTree = "<group>";
+		};
+		ED5BBC211AAD259600F09E10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED5BBC221AAD259600F09E10 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED5BBC071AAD259600F09E10 /* 自动布局计算内容可变表格的行高 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED5BBC271AAD259600F09E10 /* Build configuration list for PBXNativeTarget "自动布局计算内容可变表格的行高" */;
+			buildPhases = (
+				ED5BBC041AAD259600F09E10 /* Sources */,
+				ED5BBC051AAD259600F09E10 /* Frameworks */,
+				ED5BBC061AAD259600F09E10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "自动布局计算内容可变表格的行高";
+			productName = "自动布局计算内容可变表格的行高";
+			productReference = ED5BBC081AAD259600F09E10 /* 自动布局计算内容可变表格的行高.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED5BBC1C1AAD259600F09E10 /* 自动布局计算内容可变表格的行高Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED5BBC2A1AAD259600F09E10 /* Build configuration list for PBXNativeTarget "自动布局计算内容可变表格的行高Tests" */;
+			buildPhases = (
+				ED5BBC191AAD259600F09E10 /* Sources */,
+				ED5BBC1A1AAD259600F09E10 /* Frameworks */,
+				ED5BBC1B1AAD259600F09E10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED5BBC1F1AAD259600F09E10 /* PBXTargetDependency */,
+			);
+			name = "自动布局计算内容可变表格的行高Tests";
+			productName = "自动布局计算内容可变表格的行高Tests";
+			productReference = ED5BBC1D1AAD259600F09E10 /* 自动布局计算内容可变表格的行高Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED5BBC001AAD259600F09E10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = kouliang;
+				TargetAttributes = {
+					ED5BBC071AAD259600F09E10 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					ED5BBC1C1AAD259600F09E10 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = ED5BBC071AAD259600F09E10;
+					};
+				};
+			};
+			buildConfigurationList = ED5BBC031AAD259600F09E10 /* Build configuration list for PBXProject "自动布局计算内容可变表格的行高" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED5BBBFF1AAD259600F09E10;
+			productRefGroup = ED5BBC091AAD259600F09E10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED5BBC071AAD259600F09E10 /* 自动布局计算内容可变表格的行高 */,
+				ED5BBC1C1AAD259600F09E10 /* 自动布局计算内容可变表格的行高Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED5BBC061AAD259600F09E10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED5BBC181AAD259600F09E10 /* LaunchScreen.xib in Resources */,
+				ED5BBC2E1AAD262300F09E10 /* weibo.json in Resources */,
+				ED5BBC151AAD259600F09E10 /* Images.xcassets in Resources */,
+				ED5BBC311AAD264700F09E10 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED5BBC1B1AAD259600F09E10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED5BBC041AAD259600F09E10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED5BBC351AAD28B800F09E10 /* WeiboCell.swift in Sources */,
+				ED5BBC101AAD259600F09E10 /* ViewController.swift in Sources */,
+				ED5BBC0E1AAD259600F09E10 /* AppDelegate.swift in Sources */,
+				ED5BBC331AAD269400F09E10 /* Weibo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED5BBC191AAD259600F09E10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED5BBC241AAD259600F09E10 /* _______________Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED5BBC1F1AAD259600F09E10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED5BBC071AAD259600F09E10 /* 自动布局计算内容可变表格的行高 */;
+			targetProxy = ED5BBC1E1AAD259600F09E10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED5BBC161AAD259600F09E10 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED5BBC171AAD259600F09E10 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		ED5BBC2F1AAD264700F09E10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED5BBC301AAD264700F09E10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED5BBC251AAD259600F09E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED5BBC261AAD259600F09E10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED5BBC281AAD259600F09E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "自动布局计算内容可变表格的行高/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ED5BBC291AAD259600F09E10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "自动布局计算内容可变表格的行高/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ED5BBC2B1AAD259600F09E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "自动布局计算内容可变表格的行高Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/自动布局计算内容可变表格的行高.app/自动布局计算内容可变表格的行高";
+			};
+			name = Debug;
+		};
+		ED5BBC2C1AAD259600F09E10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "自动布局计算内容可变表格的行高Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/自动布局计算内容可变表格的行高.app/自动布局计算内容可变表格的行高";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED5BBC031AAD259600F09E10 /* Build configuration list for PBXProject "自动布局计算内容可变表格的行高" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED5BBC251AAD259600F09E10 /* Debug */,
+				ED5BBC261AAD259600F09E10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED5BBC271AAD259600F09E10 /* Build configuration list for PBXNativeTarget "自动布局计算内容可变表格的行高" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED5BBC281AAD259600F09E10 /* Debug */,
+				ED5BBC291AAD259600F09E10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED5BBC2A1AAD259600F09E10 /* Build configuration list for PBXNativeTarget "自动布局计算内容可变表格的行高Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED5BBC2B1AAD259600F09E10 /* Debug */,
+				ED5BBC2C1AAD259600F09E10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED5BBC001AAD259600F09E10 /* Project object */;
+}
